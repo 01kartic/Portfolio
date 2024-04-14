@@ -1,9 +1,14 @@
-import React from "react";
+import React, { useEffect } from "react";
 import SocialIcon from "../components/SocialIcon";
 import SocialTabs from "../components/SocialTabs";
 import AutoSlick from "../components/AutoSlick";
 
 function Links() {
+
+  useEffect(() => {
+    document.title = 'Kartic | Links'
+  }, [])
+
   return (
     <>
       <div className="Gradient">
