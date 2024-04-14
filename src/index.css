@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Noto+Color+Emoji&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Inter", "Noto Color Emoji", sans-serif;
+
+  &::-webkit-scrollbar {
+    width: 0;
+  }
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.bgGradientForIcon {
+  background: conic-gradient(
+    from 222deg at 50% 50%,
+    rgba(141, 242, 177, 0.72) 0deg,
+    rgba(251, 226, 141, 0.72) 140deg,
+    rgba(251, 226, 141, 0.72) 220deg,
+    rgba(141, 242, 177, 0.72) 360deg
+  );
+}
+
+.SocialIcon:hover .bgGradientForIcon,
+.SocialIcon:focus .bgGradientForIcon,
+.SocialIcon:active .bgGradientForIcon {
+  opacity: 1;
+  width: 52px;
+  height: 52px;
+}
+
+.bgGradientForTab {
+  background: linear-gradient(
+    244deg,
+    rgba(141, 242, 177, 0.64) 16.24%,
+    rgba(251, 226, 141, 0.72) 83.76%
+  );
+}
+
+.SocialTabs:hover .bgGradientForTab,
+.SocialTabs:focus .bgGradientForTab,
+.SocialTabs:active .bgGradientForTab {
+  opacity: 1;
+}
+
+.Gradient {
+  content: "";
+  position: absolute;
+  inset: 0px;
+  z-index: -100;
+  background-image: url("src/assets/TopGradient.svg");
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+
+#texture {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: -99;
+  width: 100%;
+  height: calc(200px + 100vh);
+  opacity: 0.25;
+  pointer-events: none;
+  transform: translateY(0px);
+  filter: contrast(120%) brightness(120%);
+}
