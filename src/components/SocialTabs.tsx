@@ -34,7 +34,7 @@ function SocialTabs() {
             <img src={item.imageUrl} className="w-[32px] h-[32px]" />
             <p className="w-[240px] font-medium">{item.text}</p>
             <svg
-              xmlns="http://www.w3.org/2000/svg"
+              xmlns="http://w3.org/2000/svg"
               width="10"
               height="10"
               viewBox="0 0 12 12"

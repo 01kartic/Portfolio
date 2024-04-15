@@ -55,7 +55,7 @@ code {
   position: absolute;
   inset: 0px;
   z-index: -100;
-  background-image: url("src/assets/TopGradient.svg");
+  background-image: url("/TopGradient.svg");
   background-repeat: no-repeat;
   background-position: center top;
 }

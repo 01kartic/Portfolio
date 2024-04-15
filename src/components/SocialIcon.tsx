@@ -37,7 +37,7 @@ function SocialIcon() {
           <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[16px] h-[16px] rounded-[16px] bgGradientForIcon opacity-0 transition duration-200 ease-in-out"></div>
           <img
             src={icon.iconUrl}
-            className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[42px] h-[42px] rounded-[12px] z-0"
+            className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[42px] h-[42px] border border-black-100 rounded-[12px] z-0"
           />
         </a>
       ))}

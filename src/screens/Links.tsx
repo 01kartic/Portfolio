@@ -23,7 +23,7 @@ function Links() {
               className="w-[112px] sm:w-[160px]"
             />
           </p>
-          <p className="text-center text-base sm:text-xl font-bold mb-6">
+          <p className="text-center text-base sm:text-lg font-bold mb-6">
             UI/UX & Frontend Developer
           </p>
 
