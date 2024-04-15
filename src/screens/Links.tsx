@@ -18,7 +18,7 @@ function Links() {
           </p>
           <p className="text-center text-5xl sm:text-6xl font-black sm:font-extrabold mt-6 mb-5 mx-auto">
             <img
-              src="src/assets/Kartic.png"
+              src="./src/assets/Kartic.png"
               alt="Kartik"
               className="w-[112px] sm:w-[160px]"
             />
