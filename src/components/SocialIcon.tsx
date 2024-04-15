@@ -3,23 +3,23 @@ import React from "react";
 const iconData = [
   {
     url: "https://linkedin.com/in/01kartic",
-    iconUrl: "./src/assets/LinkedIn.svg"
+    iconUrl: "/LinkedIn.svg"
   },
   {
     url: "https://github.com/01Kartic",
-    iconUrl: "./src/assets/Github.svg"
+    iconUrl: "/Github.svg"
   },
   {
     url: "https://figma.com/@kartic",
-    iconUrl: "./src/assets/Figma.svg"
+    iconUrl: "/Figma.svg"
   },
   {
     url: "https://instagram.com/01_kartic",
-    iconUrl: "./src/assets/Instagram.svg"
+    iconUrl: "/Instagram.svg"
   },
   {
     url: "https://buymeacoffee.com/kartic",
-    iconUrl: "./src/assets/Buy Me a Coffee.svg"
+    iconUrl: "/Buy Me a Coffee.svg"
   },
 ];
 
