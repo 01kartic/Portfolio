@@ -18,7 +18,7 @@ function Links() {
           </p>
           <p className="text-center text-5xl sm:text-6xl font-black sm:font-extrabold mt-6 mb-5 mx-auto">
             <img
-              src="./src/assets/Kartic.png"
+              src="/Kartic.png"
               alt="Kartik"
               className="w-[112px] sm:w-[160px]"
             />
@@ -29,9 +29,9 @@ function Links() {
 
 
           <div className="flex flex-row item-center justify-center my-4">
-            <img src="src/assets/Rightbar.svg" alt="Rightbar" className='w-[92px] sm:w-[132px]' />
+            <img src="/Rightbar.svg" alt="Rightbar" className='w-[92px] sm:w-[132px]' />
             <p className="text-sm sm:text-xl font-bold text-black-500 opacity-40 mx-3">✦</p>
-            <img src="src/assets/Leftbar.svg" alt="Leftbar" className='w-[92px] sm:w-[132px]' />
+            <img src="/Leftbar.svg" alt="Leftbar" className='w-[92px] sm:w-[132px]' />
           </div>
 
 
@@ -55,9 +55,9 @@ function Links() {
 
 
           <div className="flex flex-row item-center justify-center my-24">
-            <img src="src/assets/Rightbar.svg" alt="Rightbar" className='w-[72px] sm:w-[132px]' />
+            <img src="/Rightbar.svg" alt="Rightbar" className='w-[72px] sm:w-[132px]' />
             <p className="text-sm font-bold text-black-500 opacity-40 mx-3">Created by Kartic</p>
-            <img src="src/assets/Leftbar.svg" alt="Leftbar" className='w-[72px] sm:w-[132px]' />
+            <img src="/Leftbar.svg" alt="Leftbar" className='w-[72px] sm:w-[132px]' />
           </div>
         </div>
 
