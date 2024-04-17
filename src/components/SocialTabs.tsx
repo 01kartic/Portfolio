@@ -3,17 +3,17 @@ import React from "react";
 const tabData = [
   {
     url: "https://figma.com/community/plugin/1309939872279901716",
-    imageUrl: "/Color Shader.png",
+    imageUrl: "/Icons/Color Shader.png",
     text: "Color Shader | Figma Plugin"
   },
   {
     url: "https://figma.com/community/plugin/1331204712224058956",
-    imageUrl: "/Perfect Size.svg",
+    imageUrl: "/Icons/Perfect Size.svg",
     text: "Perfect Size | Figma Plugin"
   },
   {
     url: "https://kartic.framer.website",
-    imageUrl: "/ProfileImage.svg",
+    imageUrl: "/Icons/ProfileImage.svg",
     text: "Portfolio"
   },
 ];

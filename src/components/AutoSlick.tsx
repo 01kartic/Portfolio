@@ -3,11 +3,11 @@ import React, { useState, useEffect } from "react";
 const slickData = [
   {
     url: "",
-    imageUrl: "/SlickImage1.svg",
+    imageUrl: "/Slicks/SlickImage1.svg",
   },
   {
     url: "",
-    imageUrl: "/SlickImage2.svg",
+    imageUrl: "/Slicks/SlickImage2.svg",
   },
 ];
 
