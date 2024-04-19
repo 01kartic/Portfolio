@@ -25,7 +25,7 @@ function AutoSlick() {
   return (
     <div className="my-6 mx-auto">
       <a href={slickData[slickDataIndex].url}>
-        <img src={slickData[slickDataIndex].imageUrl} alt="Image" className="border border-black-100 rounded-3xl" />
+        <img src={slickData[slickDataIndex].imageUrl} alt="Image" className="border border-black-100 rounded-2xl" />
       </a>
     </div>
   );
