@@ -11,25 +11,25 @@ function Links() {
   return (
     <>
       <div className="Gradient">
-        <div className="w-full flex flex-col item-center justify-center mt-40 sm:mt-48 z-10">
-          <p className="text-center text-5xl sm:text-6xl font-black sm:font-extrabold mt-6 mb-5 mx-auto">
+        <div className="w-full flex flex-col item-center justify-center mt-32 z-10">
+          <a href="/" className="text-center text-5xl sm:text-6xl font-black sm:font-extrabold mt-6 mb-5 mx-auto">
             <img
               src="/Design/Kartic.png"
               alt="Kartik"
               className="w-[112px] sm:w-[160px]"
             />
-          </p>
+          </a>
 
           <p className="text-center text-base sm:text-lg mb-6">
             <span className="text-black-200">UI/UX Developer</span>{" "}
-            <span className="textGradient">✦</span>{" "}
+            <span className="opacity-25">✦</span>{" "}
             <span className="text-black-200">Frontend Developer</span>
             <br />
-            <span className="textGradient">✦</span>{" "}
+            <span className="opacity-25">✦</span>{" "}
             <span className="text-black-200">
               Like to create beautiful things
             </span>{" "}
-            <span className="textGradient">✦</span>
+            <span className="opacity-25">✦</span>
           </p>
 
           <div className="flex flex-row item-center justify-center my-4">
@@ -67,7 +67,7 @@ function Links() {
           </div>
 
           <p className="text-sm font-medium mx-auto my-24">
-            <span className="textGradient me-3">✦</span>
+          <span className="opacity-25 me-3">✦</span>
             <span className="text-black-500 opacity-40">Created by</span>{" "}
             <a
               href="http://linkedin.com/in/01kartic"
@@ -77,7 +77,7 @@ function Links() {
             >
               Kartik Bambhaniya
             </a>
-            <span className="textGradient ms-3">✦</span>
+            <span className="opacity-25 ms-3">✦</span>
           </p>
         </div>
 

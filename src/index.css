@@ -28,16 +28,6 @@ code {
   );
 }
 
-.textGradient {
-  background: -webkit-linear-gradient(
-    90deg,
-    rgb(70, 255, 135),
-    rgb(255, 104, 104)
-  );
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
 .SocialIcon:hover .bgGradientForIcon,
 .SocialIcon:active .bgGradientForIcon {
   opacity: 1;
