@@ -21,17 +21,17 @@ code {
 .bgGradientForIcon {
   background: conic-gradient(
     from 222deg at 50% 50%,
-    rgba(141, 242, 177, 0.72) 0deg,
-    rgba(251, 226, 141, 0.72) 140deg,
-    rgba(251, 226, 141, 0.72) 220deg,
-    rgba(141, 242, 177, 0.72) 360deg
+    rgba(70, 255, 135, 0.32) 0deg,
+    rgba(251, 226, 141, 0.64) 135deg,
+    rgba(251, 226, 141, 0.64) 220deg,
+    rgba(70, 255, 135, 0.32) 360deg
   );
 }
 
 .textGradient {
   background: -webkit-linear-gradient(
     90deg,
-    rgb(141, 242, 177),
+    rgb(70, 255, 135),
     rgb(255, 104, 104)
   );
   -webkit-background-clip: text;
@@ -48,7 +48,7 @@ code {
 .bgGradientForTab {
   background: linear-gradient(
     244deg,
-    rgba(141, 242, 177, 0.64) 16.24%,
+    rgba(70, 255, 135, 0.32) 16.24%,
     rgba(251, 226, 141, 0.72) 83.76%
   );
 }
@@ -85,3 +85,5 @@ code {
   -webkit-transform: scaleY(-1);
   transform: scaleY(-1);
 }
+
+

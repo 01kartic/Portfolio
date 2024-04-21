@@ -67,7 +67,7 @@ function Links() {
           </div>
 
           <p className="text-sm font-medium mx-auto my-24">
-            <span className="textGradient me-3">✦</span> 
+            <span className="textGradient me-3">✦</span>
             <span className="text-black-500 opacity-40">Created by</span>{" "}
             <a
               href="http://linkedin.com/in/01kartic"
@@ -76,7 +76,7 @@ function Links() {
               className="text-black-500 hover:text-blue-400 opacity-40 hover:opacity-100"
             >
               Kartik Bambhaniya
-            </a> 
+            </a>
             <span className="textGradient ms-3">✦</span>
           </p>
         </div>
