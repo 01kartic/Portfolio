@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import { Helmet } from "react-helmet";
 import SocialIcon from "../components/SocialIcon";
 import SocialTabs from "../components/SocialTabs";
 import AutoSlick from "../components/AutoSlick";
@@ -10,9 +11,43 @@ function Links() {
 
   return (
     <>
+      <Helmet>
+        <meta
+          name="description"
+          content="Reach out me on my Social Media & Check out Live Projects here !!"
+        />
+
+        {/* Open Graph / Facebook */}
+        <meta property="og:url" content="https://kartic.online/links" />
+        <meta property="og:title" content="Kartic | Links" />
+        <meta
+          property="og:description"
+          content="Reach out me on my Social Media & Check out Live Projects here !!"
+        />
+        <meta
+          property="og:image"
+          content="https://kartic.online/ThumbnailImage.png"
+        />
+
+        {/* Twitter */}
+        <meta property="twitter:url" content="https://kartic.online/links" />
+        <meta property="twitter:title" content="Kartic | Links" />
+        <meta
+          property="twitter:description"
+          content="Reach out me on my Social Media & Check out Live Projects here !!"
+        />
+        <meta
+          property="twitter:image"
+          content="https://kartic.online/ThumbnailImage.png"
+        />
+      </Helmet>
+
       <div className="Gradient">
-        <div className="w-full flex flex-col item-center justify-center mt-32 z-10">
-          <a href="/" className="text-center text-5xl sm:text-6xl font-black sm:font-extrabold mt-6 mb-5 mx-auto">
+        <div className="w-full flex flex-col item-center justify-center mt-24 sm:mt-32 z-10">
+          <a
+            href="/"
+            className="text-center text-5xl sm:text-6xl font-black sm:font-extrabold mt-6 mb-5 mx-auto"
+          >
             <img
               src="/Design/Kartic.png"
               alt="Kartik"
@@ -67,7 +102,7 @@ function Links() {
           </div>
 
           <p className="text-sm font-medium mx-auto my-24">
-          <span className="opacity-25 me-3">✦</span>
+            <span className="opacity-25 me-3">✦</span>
             <span className="text-black-500 opacity-40">Created by</span>{" "}
             <a
               href="http://linkedin.com/in/01kartic"
