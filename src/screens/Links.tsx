@@ -26,7 +26,7 @@ function Links() {
         />
         <meta
           property="og:image"
-          content="https://kartic.online/OGs/LinksOG_Image.png"
+          content="https://kartic.online/OGs/linksOGImage.png"
         />
 
         {/* Twitter */}
@@ -38,7 +38,7 @@ function Links() {
         />
         <meta
           property="twitter:image"
-          content="https://kartic.online/OGs/LinksOG_Image.png"
+          content="https://kartic.online/OGs/linksOGImage.png"
         />
       </Helmet>
 
