@@ -6,7 +6,7 @@ const Links = React.lazy(() => import("./screens/Links"));
 
 function App() {
   useEffect(() => {
-    window.location.href = "https://kartic.online";
+    window.location.href = "https://kartic.framer.website";
   }, []);
 
   return (
