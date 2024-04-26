@@ -1,5 +1,5 @@
 import React, { Suspense } from "react";
-import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
+import { BrowserRouter, Routes, Route, Redirect } from "react-router-dom";
 import { Analytics } from "@vercel/analytics/react";
 import Loading from "./components/Loading";
 const Links = React.lazy(() => import("./screens/Links"));
@@ -8,7 +8,7 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Navigate to="https://kartic.framer.website" replace />} />
+        <Route path="/" element={<Redirect to="https://kartic.framer.website" />} />
         
         <Route
           path="/links"
