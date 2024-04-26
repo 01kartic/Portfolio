@@ -1,15 +1,17 @@
-import React, { Suspense } from "react";
-import { BrowserRouter, Routes, Route, Redirect } from "react-router-dom";
+import React, { Suspense, useEffect } from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Analytics } from "@vercel/analytics/react";
 import Loading from "./components/Loading";
 const Links = React.lazy(() => import("./screens/Links"));
 
 function App() {
+  useEffect(() => {
+    window.location.href = "https://kartic.online";
+  }, []);
+
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Redirect to="https://kartic.framer.website" />} />
-        
         <Route
           path="/links"
           element={
