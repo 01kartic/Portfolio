@@ -8,7 +8,7 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Navigate to="/links" />} />
+        <Route path="/" element={<Navigate to="https://kartic.framer.website" />} />
         
         <Route
           path="/links"
