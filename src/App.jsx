@@ -13,7 +13,12 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<RedirectComponent />} />
+        <Route path="/" element={
+          <Suspense fallback={<Loading />}>
+              <Links />
+            </Suspense>
+        } />
+        { */<Route path="/" element={<RedirectComponent />} /> */}
         <Route
           path="/links"
           element={
