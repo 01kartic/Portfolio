@@ -18,7 +18,6 @@ function App() {
               <Links />
             </Suspense>
         } />
-        { */<Route path="/" element={<RedirectComponent />} /> */}
         <Route
           path="/links"
           element={
