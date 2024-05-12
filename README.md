@@ -1,3 +1,3 @@
 # Portfolio
 
-This is repo of my portfolio which you can see on [kartic online]
+This is repo of my portfolio which you can see on (kartic online)
