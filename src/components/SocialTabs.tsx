@@ -16,6 +16,11 @@ const tabData = [
     imageUrl: "/Icons/ProfileImage.svg",
     text: "Portfolio"
   },
+  {
+    url: "https://buymeacoffee.com/kartic",
+    imageUrl: "/Icons/Buy Me a Coffee.svg",
+    text: "Buy Me a Coffee ☕"
+  },
 ];
 
 function SocialTabs() {

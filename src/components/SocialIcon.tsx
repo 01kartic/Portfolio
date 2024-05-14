@@ -14,13 +14,13 @@ const iconData = [
     iconUrl: "/Icons/Figma.svg"
   },
   {
-    url: "https://instagram.com/01_kartic",
-    iconUrl: "/Icons/Instagram.svg"
+    url: "https://twitter.com/01_kartic",
+    iconUrl: "/Icons/X.svg"
   },
   {
-    url: "https://buymeacoffee.com/kartic",
-    iconUrl: "/Icons/Buy Me a Coffee.svg"
-  },
+    url: "https://instagram.com/01_kartic",
+    iconUrl: "/Icons/Instagram.svg"
+  }
 ];
 
 function SocialIcon() {
