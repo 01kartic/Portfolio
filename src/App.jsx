@@ -26,6 +26,12 @@ function App() {
             </Suspense>
           }
         />
+<Route
+          path="/portfolio"
+          element={
+            RedirectComponent()
+          }
+        />
       </Routes>
       <Analytics />
     </BrowserRouter>
