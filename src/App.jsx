@@ -15,8 +15,8 @@ function App() {
       <Routes>
         <Route path="/" element={
           <Suspense fallback={<Loading />}>
-              <Links />
-            </Suspense>
+            <Links />
+          </Suspense>
         } />
         <Route
           path="/links"
@@ -26,11 +26,9 @@ function App() {
             </Suspense>
           }
         />
-<Route
+        <Route
           path="/portfolio"
-          element={
-            RedirectComponent()
-          }
+          element={<RedirectComponent />}
         />
       </Routes>
       <Analytics />
