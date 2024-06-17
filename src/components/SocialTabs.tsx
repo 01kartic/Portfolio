@@ -3,7 +3,7 @@ import React from "react";
 const tabData = [
   {
     url: "https://figma.com/community/plugin/1309939872279901716",
-    imageUrl: "/Icons/Color Shader.png",
+    imageUrl: "/Icons/Color Shader.svg",
     text: "Color Shader | Figma Plugin"
   },
   {
