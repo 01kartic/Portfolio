@@ -4,8 +4,13 @@ import { Analytics } from "@vercel/analytics/react";
 import Loading from "./components/Loading";
 const Links = React.lazy(() => import("./screens/Links"));
 
-function RedirectComponent() {
+function portfolioRedirect() {
   window.location.href = "https://kartic.framer.website";
+  return null;
+}
+
+function colorShaderRedirect() {
+  window.location.href = "https://figma.com/community/plugin/1309939872279901716";
   return null;
 }
 
@@ -28,7 +33,11 @@ function App() {
         />
         <Route
           path="/portfolio"
-          element={<RedirectComponent />}
+          element={<portfolioRedirect />}
+        />
+        <Route
+          path="/ColorShader"
+          element={<colorShaderRedirect />}
         />
       </Routes>
       <Analytics />
