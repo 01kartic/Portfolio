@@ -3,17 +3,14 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Analytics } from "@vercel/analytics/react";
 import Loading from "./components/Loading";
 const Links = React.lazy(() => import("./screens/Links"));
-import { useNavigate } from "react-router-dom";
 
 function PortfolioRedirect() {
-  const navigate = useNavigate();
-  navigate("https://kartic.framer.website", { replace: true });
+  window.location.href = "https://kartic.framer.website";
   return null;
 }
 
 function ColorShaderRedirect() {
-  const navigate = useNavigate();
-  navigate("https://figma.com/community/plugin/1309939872279901716", { replace: true });
+  window.location.href = "https://figma.com/community/plugin/1309939872279901716";
   return null;
 }
 
