@@ -33,11 +33,11 @@ function App() {
         />
         <Route
           path="/portfolio"
-          element={<portfolioRedirect />}
+          element={portfolioRedirect}
         />
         <Route
           path="/ColorShader"
-          element={<colorShaderRedirect />}
+          element={colorShaderRedirect}
         />
       </Routes>
       <Analytics />
