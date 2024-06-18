@@ -1,8 +1,21 @@
 import React from "react";
-import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Analytics } from "@vercel/analytics/react";
 import Loading from "./components/Loading";
 const Links = React.lazy(() => import("./screens/Links"));
+import { useNavigate } from "react-router-dom";
+
+function PortfolioRedirect() {
+  const navigate = useNavigate();
+  navigate("https://kartic.framer.website", { replace: true });
+  return null;
+}
+
+function ColorShaderRedirect() {
+  const navigate = useNavigate();
+  navigate("https://figma.com/community/plugin/1309939872279901716", { replace: true });
+  return null;
+}
 
 function App() {
   return (
@@ -23,11 +36,11 @@ function App() {
         />
         <Route
           path="/portfolio"
-          element={<Navigate to="https://kartic.framer.website" replace />}
+          element={<PortfolioRedirect />}
         />
         <Route
           path="/ColorShader"
-          element={<Navigate to="https://figma.com/community/plugin/1309939872279901716" replace />}
+          element={<ColorShaderRedirect />}
         />
       </Routes>
       <Analytics />
