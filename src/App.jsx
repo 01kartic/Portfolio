@@ -1,43 +1,33 @@
-import React, { Suspense } from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import React from "react";
+import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import { Analytics } from "@vercel/analytics/react";
 import Loading from "./components/Loading";
 const Links = React.lazy(() => import("./screens/Links"));
-
-function portfolioRedirect() {
-  window.location.href = "https://kartic.framer.website";
-  return null;
-}
-
-function colorShaderRedirect() {
-  window.location.href = "https://figma.com/community/plugin/1309939872279901716";
-  return null;
-}
 
 function App() {
   return (
     <BrowserRouter>
       <Routes>
         <Route path="/" element={
-          <Suspense fallback={<Loading />}>
+          <React.Suspense fallback={<Loading />}>
             <Links />
-          </Suspense>
+          </React.Suspense>
         } />
         <Route
           path="/links"
           element={
-            <Suspense fallback={<Loading />}>
+            <React.Suspense fallback={<Loading />}>
               <Links />
-            </Suspense>
+            </React.Suspense>
           }
         />
         <Route
           path="/portfolio"
-          element={portfolioRedirect}
+          element={<Navigate to="https://kartic.framer.website" replace />}
         />
         <Route
           path="/ColorShader"
-          element={colorShaderRedirect}
+          element={<Navigate to="https://figma.com/community/plugin/1309939872279901716" replace />}
         />
       </Routes>
       <Analytics />
