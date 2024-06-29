@@ -56,13 +56,13 @@ function Links() {
           </a>
 
           <p className="text-center text-base sm:text-lg mb-6">
-            <span className="text-black-200">UI/UX Developer</span>{" "}
+            <span className="text-black-200">UI/UX Designer</span>{" "}
             <span className="opacity-25">✦</span>{" "}
             <span className="text-black-200">Frontend Developer</span>
             <br />
             <span className="opacity-25">✦</span>{" "}
             <span className="text-black-200">
-              Like to create beautiful things
+              Passionate about creating beautiful designs
             </span>{" "}
             <span className="opacity-25">✦</span>
           </p>
