@@ -6,16 +6,16 @@ const iconData = [
     iconUrl: "/Icons/LinkedIn.svg"
   },
   {
+    url: "https://twitter.com/01_kartic",
+    iconUrl: "/Icons/X.svg"
+  },
+  {
     url: "https://github.com/01Kartic",
     iconUrl: "/Icons/Github.svg"
   },
   {
     url: "https://figma.com/@kartic",
     iconUrl: "/Icons/Figma.svg"
-  },
-  {
-    url: "https://twitter.com/01_kartic",
-    iconUrl: "/Icons/X.svg"
   },
   {
     url: "https://instagram.com/01_kartic",
