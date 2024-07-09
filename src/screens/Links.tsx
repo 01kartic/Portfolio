@@ -62,7 +62,7 @@ function Links() {
             <br />
             <span className="opacity-25">✦</span>{" "}
             <span className="text-black-200">
-              Passionate about creating beautiful designs
+              Passionate about creating beautifuls
             </span>{" "}
             <span className="opacity-25">✦</span>
           </p>
