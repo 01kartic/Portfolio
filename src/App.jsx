@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Analytics } from "@vercel/analytics/react";
-import Loading from "./Loading";
+import Loading from "../links/Loading";
 const Links = React.lazy(() => import("./links/Links"));
 
 function PortfolioRedirect() {
