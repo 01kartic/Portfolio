@@ -1,8 +1,8 @@
 import React, { useEffect } from "react";
 import { Helmet } from "react-helmet";
-import SocialIcon from "../components/SocialIcon";
-import SocialTabs from "../components/SocialTabs";
-import AutoSlick from "../components/AutoSlick";
+import SocialIcon from "./components/SocialIcon";
+import SocialTabs from "./components/SocialTabs";
+import AutoSlick from "./components/AutoSlick";
 
 function Links() {
   useEffect(() => {

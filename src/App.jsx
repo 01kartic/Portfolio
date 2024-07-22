@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Analytics } from "@vercel/analytics/react";
 import Loading from "./components/Loading";
-const Links = React.lazy(() => import("./screens/Links"));
+const Links = React.lazy(() => import("./links/Links"));
 
 function PortfolioRedirect() {
   window.location.href = "https://kartic.framer.website";
@@ -38,6 +38,10 @@ function App() {
         <Route
           path="/ColorShader"
           element={<ColorShaderRedirect />}
+        />
+        <Route
+          path="/Halftone"
+          element={<Halftone />}
         />
       </Routes>
       <Analytics />
