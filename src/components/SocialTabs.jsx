@@ -3,22 +3,22 @@ import React from "react";
 const tabData = [
   {
     url: "https://figma.com/community/plugin/1309939872279901716",
-    imageUrl: "/links/Icons/Color Shader.svg",
+    imageUrl: "/Icons/Color Shader.svg",
     text: "Color Shader | Figma Plugin"
   },
   {
     url: "https://figma.com/community/plugin/1331204712224058956",
-    imageUrl: "/links/Icons/Perfect Size.svg",
+    imageUrl: "/Icons/Perfect Size.svg",
     text: "Perfect Size | Figma Plugin"
   },
   {
     url: "https://kartic.framer.website",
-    imageUrl: "/links/Icons/ProfileImage.svg",
+    imageUrl: "/Icons/ProfileImage.svg",
     text: "Portfolio"
   },
   {
     url: "https://buymeacoffee.com/kartic",
-    imageUrl: "/links/Icons/Buy Me a Coffee.svg",
+    imageUrl: "/Icons/Buy Me a Coffee.svg",
     text: "Buy Me a Coffee ☕"
   },
 ];

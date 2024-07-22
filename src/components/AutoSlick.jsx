@@ -3,15 +3,15 @@ import React, { useState, useEffect } from "react";
 const slickData = [
   {
     url: "https://figma.com/community/plugin/1309939872279901716",
-    imageUrl: "/links/Slicks/SlickImage1.svg",
+    imageUrl: "/Slicks/SlickImage1.svg",
   },
   {
     url: "https://figma.com/community/plugin/1331204712224058956",
-    imageUrl: "/links/Slicks/SlickImage2.svg",
+    imageUrl: "/Slicks/SlickImage2.svg",
   },
   {
     url: "",
-    imageUrl: "/links/Slicks/SlickImage3.svg",
+    imageUrl: "/Slicks/SlickImage3.svg",
   },
 ];
 
