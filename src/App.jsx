@@ -14,6 +14,11 @@ function ColorShaderRedirect() {
   return null;
 }
 
+function ShowcaseRedirect() {
+  window.location.href = "https://www.figma.com/proto/SG8m2YzLOMZAdQREJJwOug/Portfolio?node-id=2277-521&t=ivlvIXznkkfJGlAd-0&scaling=scale-down-width&content-scaling=fixed&page-id=2276%3A250&hide-ui=1";
+  return null;
+}
+
 function App() {
   return (
     <BrowserRouter>
@@ -38,6 +43,10 @@ function App() {
         <Route
           path="/ColorShader"
           element={<ColorShaderRedirect />}
+        />
+        <Route
+          path="/showcase"
+          element={<ShowcaseRedirect />}
         />
       </Routes>
       <Analytics />
