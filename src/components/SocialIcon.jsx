@@ -16,10 +16,6 @@ const iconData = [
   {
     url: "https://figma.com/@kartic",
     iconUrl: "/Icons/Figma.svg"
-  },
-  {
-    url: "https://instagram.com/01_kartic",
-    iconUrl: "/Icons/Instagram.svg"
   }
 ];
 
