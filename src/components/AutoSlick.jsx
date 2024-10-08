@@ -8,11 +8,7 @@ const slickData = [
   {
     url: "https://figma.com/community/plugin/1331204712224058956",
     imageUrl: "/Slicks/SlickImage2.svg",
-  },
-  {
-    url: "",
-    imageUrl: "/Slicks/SlickImage3.svg",
-  },
+  }
 ];
 
 function AutoSlick() {
