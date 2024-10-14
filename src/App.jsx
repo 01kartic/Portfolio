@@ -19,7 +19,7 @@ function ShowcaseRedirect() {
   return null;
 }
 
-function Temp01() {
+function TempForm() {
   windows.location.href = "https://forms.gle/FsSdXghUeHihohEh6";
   return null;
 }
@@ -54,8 +54,8 @@ function App() {
           element={<ShowcaseRedirect />}
         />
         <Route
-          path="/temp01"
-          element={<Temp01 />}
+          path="/tempform"
+          element={<TempForm />}
         />
         
       </Routes>
