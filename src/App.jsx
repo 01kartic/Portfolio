@@ -20,7 +20,7 @@ function ShowcaseRedirect() {
 }
 
 function TempForm() {
-  windows.location.href = "https://forms.gle/FsSdXghUeHihohEh6";
+  window.location.href = "https://forms.gle/FsSdXghUeHihohEh6";
   return null;
 }
 
