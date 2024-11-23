@@ -1,8 +1,49 @@
 import React, { useEffect } from "react";
 import { Helmet } from "react-helmet";
 import SocialIcon from "../components/SocialIcon";
-import SocialTabs from "../components/SocialTabs";
+import Tabs from "../components/Tabs";
 import AutoSlick from "../components/AutoSlick";
+
+const tabProject = [
+  {
+    url: "https://figma.com/community/plugin/1309939872279901716",
+    imageUrl: "/Icons/Color Shader.svg",
+    text: "Color Shader",
+    subText: "Figma Plugin"
+  },
+  {
+    url: "https://figma.com/community/plugin/1331204712224058956",
+    imageUrl: "/Icons/Perfect Size.svg",
+    text: "Perfect Size",
+    subText: "Figma Plugin"
+  },
+  {
+    url: "https://github.com/01kartic/Chrome-Extension-Popup-Boilerplate",
+    imageUrl: "https://framerusercontent.com/images/GE9BKnJjaRTbtElv0yicHDUB64.png",
+    text: "Chrome Extension",
+    subText: "Boilerplate"
+  },
+  {
+    url: "",
+    imageUrl: "/Icons/SVGCollector.svg",
+    text: "Coming Soon",
+    subText: "Figma Plugin - Stay Tuned"
+  }
+]
+
+const tabMore = [
+  {
+    url: "https://kartic.online/showcase",
+    imageUrl: "/Icons/ProfileImage.svg",
+    text: "Portfolio",
+    subText: "UI Showcase"
+  },
+  {
+    url: "https://buymeacoffee.com/kartic",
+    imageUrl: "/Icons/Buy Me a Coffee.svg",
+    text: "Buy Me a Coffee ☕"
+  },
+];
 
 function Links() {
   useEffect(() => {
@@ -62,7 +103,7 @@ function Links() {
             <br />
             <span className="opacity-25">✦</span>{" "}
             <span className="text-black-200">
-              Passionate about creating beautiful designs
+              Passionate about creating excellence
             </span>{" "}
             <span className="opacity-25">✦</span>
           </p>
@@ -93,13 +134,9 @@ function Links() {
             <SocialIcon />
           </div>
 
-          <p className="text-center text-xs sm:text-sm font-semibold sm:font-bold tracking-[0.3rem] opacity-30 mt-8 mb-3">
-            FEATURED PROJECTS
-          </p>
+          <Tabs title="Featured Projects" tabData={tabProject} />
 
-          <div className="flex flex-col justify-center mx-auto item-center my-4">
-            <SocialTabs />
-          </div>
+          <Tabs title="More" tabData={tabMore} />
 
           <p className="text-sm font-medium mx-auto my-24">
             <span className="opacity-25 me-3">✦</span>
@@ -110,7 +147,7 @@ function Links() {
               rel="noopener noreferrer"
               className="text-black-500 hover:text-blue-400 opacity-40 hover:opacity-100"
             >
-              Kartik Bambhaniya
+              @Kartic
             </a>
             <span className="opacity-25 ms-3">✦</span>
           </p>

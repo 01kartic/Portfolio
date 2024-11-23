@@ -8,6 +8,10 @@ const slickData = [
   {
     url: "https://figma.com/community/plugin/1331204712224058956",
     imageUrl: "/Slicks/SlickImage2.svg",
+  },
+  {
+    url: "https://github.com/01kartic/Chrome-Extension-Popup-Boilerplate",
+    imageUrl: "/Slicks/SlickImage3.svg",
   }
 ];
 

@@ -6,7 +6,7 @@ const iconData = [
     iconUrl: "/Icons/LinkedIn.svg"
   },
   {
-    url: "https://twitter.com/01_kartic",
+    url: "https://x.com/intent/follow?screen_name=01_kartic",
     iconUrl: "/Icons/X.svg"
   },
   {
@@ -16,6 +16,10 @@ const iconData = [
   {
     url: "https://figma.com/@kartic",
     iconUrl: "/Icons/Figma.svg"
+  },
+  {
+    url: "https://instagram.com/01_kartic",
+    iconUrl: "/Icons/Instagram.svg"
   }
 ];
 
