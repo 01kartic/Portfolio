@@ -23,12 +23,12 @@ const tabProject = [
     text: "Chrome Extension",
     subText: "Boilerplate"
   },
-  {
-    url: "",
-    imageUrl: "/Icons/SVGCollector.svg",
-    text: "Coming Soon",
-    subText: "Figma Plugin - Stay Tuned"
-  }
+  // {
+  //   url: "",
+  //   imageUrl: "/Icons/SVGCollector.svg",
+  //   text: "Coming Soon",
+  //   subText: "Figma Plugin - Stay Tuned"
+  // }
 ]
 
 const tabMore = [
